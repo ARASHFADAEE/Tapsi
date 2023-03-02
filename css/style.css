@@ -68,4 +68,19 @@ html {
       margin-bottom: 3.5rem;
     }
   }
+
+
+
+  /* buttons */
+.btn {
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.4rem;
+  }
   
