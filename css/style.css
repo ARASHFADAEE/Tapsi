@@ -124,14 +124,27 @@ html {
     font-size: 1.2rem;
   }
   
-  .badge--primary {
+.badge--primary {
     background-color: var(--color-primary);
     color: var(--color-white);
   }
   
   @media screen and (min-width: 1024px) {
+
     .badge {
       font-size: 1.4rem;
     }
   }
   
+
+/* List */
+
+
+.list {
+    list-style: none;
+    font-size: 1.8rem;
+  }
+.list--inline .list__item {
+    display: inline-block;
+    margin-left: 2rem;
+  }
